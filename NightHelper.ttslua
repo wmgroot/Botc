@@ -305,7 +305,7 @@ function setNightOrder(night)
                     elseif v2.char == 'Ysbaddaden' and night == 'other' then
                         table.insert(order, v2)
                         table.insert(order, {char = 'Ysbaddaden Kill', color = v2.color})
-                    elseif v2.char == 'Jabberwocky' and night == 'other' then
+                    elseif v2.char == 'Jabberwocky' then
                         table.insert(order, v2)
                         table.insert(order, {char = 'Jabberwocky Kill', color = v2.color})
                     elseif v2.char == 'Chieftain' and night == 'first' then
